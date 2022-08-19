@@ -1,0 +1,84 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-image: url(https://images5.alphacoders.com/641/thumb-1920-641999.jpg);
+    background-size: contain no-repeat;
+}
+h1 {
+    font-size: 175%;
+    text-align: center;
+}
+.row {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-box {
+    border: 1px solid black;
+    float: left;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.title {
+    float:right;
+    border: 1px solid black;
+    padding: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 125%;
+}
+
+.text {
+    float: left;
+    clear: right;
+    padding: 5px;
+}
+
+#t1 {
+    background-color: aquamarine;
+}
+
+#t2 {
+    background-color: crimson;
+    color: white;
+}
+
+#t3 {
+    background-color: #ffff00;
+}
+
+/*MEDIA QUERY FOR DESKTOP LAYOUT*/
+
+@media (min-width: 992px) {
+    .text-box {
+        width: 31%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 200px;
+    }
+}
+
+/*MEDIA QUERY FOR TABLET LAYOUT*/
+
+@media (min-width: 768px) and (max-width:991px) {
+    .text-box {
+        height: 300px;
+    }
+
+    #col-1, #col-2 {
+        width: 48%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
